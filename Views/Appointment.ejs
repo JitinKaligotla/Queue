@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make A Appointment</title>
+</head>
+<body>
+    <form action="MakeAppointment" method="POST">
+        <div>
+        <label for="name"> Enter Your Patient Name</label>
+        <input id="name" type="text" placeholder="Enter Your Name" name="patientname">
+        </div>
+        <hr>
+        <br>
+        <div>
+        <label for="phoneno"> Enter Your Phoneno</label>
+        <input id="phoneno" type="text" placeholder="Enter Your Phoneno" name="phoneno">
+        </div>
+        <hr>
+        <br>
+        <div>
+        <label for="des"> Enter the Description</label>
+        <input id="des" type="text" placeholder="Enter The Description" name="description">
+        </div>
+        <hr>
+        <br>
+        <div>
+        <label for="problem"> Enter Your Phoneno</label>
+        <select name="problem" id="problem">
+            <option value="Eye">Eye</option>
+            <option value="Ear">Ear</option>
+            <option value="Nose">Nose</option>
+        </select>
+        </div>
+        <hr>
+        <br>
+        <div>
+    <button>Make A Appointment And GenerateQR</button>
+    </form>
+</body>
+</html>
